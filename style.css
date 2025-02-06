@@ -1,0 +1,65 @@
+body{
+    background-color: hsl(233,47%,7%);
+    text-align: center;
+}
+main{
+    background-color: hsl(244,38%,16%);
+    margin: 50px 20px;
+    /*  margin top and bottom 50px and left and right 20p */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+}
+h1{
+    color:hsl(0,0%,100%)
+
+}
+p{
+    color:hsla(0,0%,100%,0.75);
+}
+ul span:first-child{
+    color:hsl(0,0%,100%,0.6);
+    font-weight: bold;
+    font-size: 32px;
+}
+ul span:not(:first-child){
+    color:hsla(0,0%,100%,0.75);
+    text-transform: uppercase;
+}
+ul{
+    list-style-type: none;
+    padding:0;
+}
+span{
+    /* i want each span to be on their own line since they are inline elements */
+    display: block;
+}
+li{
+    margin:10px;
+}
+.text-container{
+    padding:30px;
+}
+strong{
+    color:hsl(277,64%,61%);
+}
+
+
+.image-container{
+    /* border: 3px solid red; */
+    position: relative;
+    
+}
+#blanket{
+    
+    
+    background-color: hsla(277,64%,61%,0.7);
+    position: absolute;
+    left:0px;
+    right:0px;
+    top:0px;
+    bottom:0px
+}
